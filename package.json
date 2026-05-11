@@ -1,0 +1,26 @@
+{
+  "name": "app_photostripv2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:nw": "playwright test nw-test.spec.ts --headed",
+    "test:end-booth": "playwright test end-booth.spec.ts --headed",
+    "test:nw3": "playwright test test_end/nw3-test.spec.ts --headed",
+    "test:all-headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
